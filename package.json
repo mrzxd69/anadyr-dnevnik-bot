@@ -1,0 +1,20 @@
+{
+  "name": "dnevnik",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./source/index.js"
+  },
+  "imports": {
+    "#database/*": "./source/database/*",
+    "#parser/*": "./source/parser/*",
+    "#addons/*": "./source/addons/*"
+  },
+  "dependencies": {
+    "@puregram/prompt": "^1.2.0",
+    "cheerio": "^1.0.0-rc.12",
+    "nodemon": "^2.0.21",
+    "pg": "^8.10.0",
+    "puregram": "^2.10.2",
+    "undici": "^5.21.0"
+  }
+}

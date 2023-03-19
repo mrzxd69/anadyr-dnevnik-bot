@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": "source",
+        "moduleResolution": "Node",
+        "module": "ES6",
+        "paths": {
+            "#platforms/*": ["parser/*"],
+            "#config.js": ["config.js"],
+            "#database/*": ["database/*"],
+            "#addons/*": ["addons/*"],
+            "#parser/*": ["parser/*"]
+        }
+    }
+}
